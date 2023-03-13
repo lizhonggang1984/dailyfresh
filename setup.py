@@ -4,6 +4,9 @@ import setuptools
 import site
 import sys
 
-if __name__ == "__main__":
-    site.ENABLE_USER_SITE = "--user" in sys.argv[1:]
-    setuptools.setup()
+setuptools.setup(
+	name="dailyfresh",
+	version="0.0.1",
+	packages=setuptools.find_packages(),
+	python_requires='>3'
+)
