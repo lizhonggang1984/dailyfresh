@@ -1,2 +1,2 @@
-def dailyfresh():
+def printdailyfresh():
     print('daily fresh')
