@@ -6,7 +6,7 @@ import sys
 
 setuptools.setup(
 	name="dailyfresh",
-	version="0.0.1",
+	version="0.0.2",
 	packages=setuptools.find_packages(),
 	python_requires='>3'
 )
